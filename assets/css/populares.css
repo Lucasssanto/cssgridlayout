@@ -21,6 +21,10 @@
     width: calc(20% - 1rem);
 }
 
+.populares__card:last-child {
+    margin-right: 0;
+}
+
 .populares__card___imagem {
     grid-area:  card-imagem;
     height: 100%;
@@ -53,4 +57,24 @@
     line-height: 1.5;
     margin: 1rem 0;
     text-align: justify;
+}
+
+.populares___titulo {
+    font-weight: 500;
+}
+
+.populares___icone {
+    margin-right: .25rem;
+}
+
+.populares__cabecalho {
+    border-bottom: 1px #dcdcdd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.populares___botao {
+    background: transparent;
+    border: none;
+    color: #333333;
 }
